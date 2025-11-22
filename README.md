@@ -112,6 +112,7 @@ SeeSense-AI/
 │       ├── demo.html     # Optional demo/experimental view
 │       └── demo.css
 └── venv/                 # Local virtual environment (ignored in git)
+```
 
 ---
 
