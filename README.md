@@ -100,8 +100,6 @@ The goal is not to be a generic AI demo, but a focused accessibility tool that g
 ```bash
 SeeSense-AI/
 ├── app.py                # Main Flask application and routes
-├── config.py             # Configuration and environment variable loading
-├── pp1.py                # AI / Gemini integration and helper functions
 ├── requirements.txt      # Python dependencies
 ├── .env                  # Local environment variables (not committed)
 ├── static/
@@ -153,8 +151,7 @@ Create a `.env` file in the project root:
 
 ```bash
 GEMINI_API_KEY=your_api_key_here
-GEMINI_MODEL=your_preferred_model_name   # optional, if used in config.py
-FLASK_ENV=development
+GEMINI_MODEL=your_preferred_model_name   # optional or you can change it in app.py  
 ```
 
 ### 5. Run the application

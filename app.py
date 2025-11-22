@@ -23,7 +23,7 @@ if not API_KEY:
 
 genai.configure(api_key=API_KEY)
 
-MODEL_ID = "gemini-2.0-flash"
+MODEL_ID = os.getenv("MODEL_ID")
 
 app = Flask(__name__, static_folder='static', template_folder='static')
 CORS(app)
