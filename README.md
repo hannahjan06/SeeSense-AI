@@ -33,9 +33,9 @@ Using a camera feed, AI vision models, and text-to-speech, it turns visual infor
 
 All of this is driven through simple voice commands such as:
 
-> “Nova, describe my surroundings.”  
-> “Nova, read this.”  
-> “Nova, identify this object.”  
+> “Nova, describe”  
+> “Nova, read”  
+> “Nova, identify”  
 
 The goal is not to be a generic AI demo, but a focused accessibility tool that gives users more independence in unfamiliar or visually complex environments.
 
@@ -73,14 +73,14 @@ The goal is not to be a generic AI demo, but a focused accessibility tool that g
 
 1. The user opens the web app and grants camera and microphone access.
 2. The browser listens for wake phrases such as:  
-   `“Nova, describe my surroundings”`
+   `“Nova, describe”`
 3. JavaScript captures a frame from the camera and sends it to the Flask backend.
 4. The Flask backend forwards the image to a Google Gemini vision endpoint with a task-specific prompt.
 5. The model response (scene description / text / object info) is returned as JSON.
 6. The frontend:
    - Displays the result in the “AI Analysis” panel
    - Uses the Web Speech API to speak the result aloud
-7. Users can say `“Nova, repeat that”` to hear the last response again.
+7. Users can say `“Nova, repeat”` to hear the last response again.
 
 ---
 
