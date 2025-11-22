@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/last-commit/hannahjan06/SeeSense-AI" alt="last commit">
-  <img src="https://img.shields.io/github/languages/top/hannahjan06/SeeSense-AI?color=2b7489&label=top%20language" alt="top language">
+  <img src="https://img.shields.io/github/languages/top/hannahjan06/SeeSense-AI?color=2b7489&label=top%20language" alt="CSS">
   <img src="https://img.shields.io/github/languages/count/hannahjan06/SeeSense-AI?label=languages" alt="languages">
 </p>
 
