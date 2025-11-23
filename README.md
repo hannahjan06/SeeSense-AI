@@ -188,6 +188,7 @@ Open it in Chrome for best support of camera and speech APIs.
 ## Current Limitations
 
 * Requires a stable internet connection for Gemini API access.
+* Currently uses two different voices for system response and analysis output.
 * Accuracy depends on camera quality, lighting and model performance.
 * Works best in Chrome or Chromium-based browsers with full support for Web Speech and media APIs.
 * Not a medical or safety-certified device; intended as a proof-of-concept assistive tool.
